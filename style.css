@@ -44,7 +44,7 @@ li, h3 {
 input, button{
   outline:none;
 }
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -53,7 +53,7 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -91,7 +91,7 @@ label[for="new-task"] {
 input#new-task {
   width: 318px;
 }
-p > button:hover {
+p > .button:hover {
   color: #0fc57c;
 }
 
@@ -121,15 +121,15 @@ li > label {
 li >  input[type="text"] {
   width: 226px
 }
-li > button.delete:hover {
+li > .delete:hover {
   color: #cf2323;
 }
-button.delete img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete img:hover {
   transform: rotateZ(0);
 }
 
