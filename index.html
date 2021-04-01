@@ -17,7 +17,7 @@
     <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
   <div class="main-block">
-    <p id="add-tasks">
+    <p class="add-tasks" id="add-tasks">
       <label class="new-task-label label" for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id="new-task" class="task input-text" type="text"><button class="button">Add</button>
@@ -25,23 +25,23 @@
     </p>
     <h3 class="header">Todo</h3>
     <ul id="incomplete-tasks">
-      <li>
+      <li class="task-el">
         <input class="input-checkbox" type="checkbox">
         <label class="task label">Pay Bills</label>
-        <input class="input-text" type="text"><button class="button edit">Edit</button><button class="button delete"><img src="./remove.svg"></button>
+        <input class="input-text" type="text"><button class="button edit">Edit</button><button class="button delete"><img class="delete-img" src="./remove.svg"></button>
       </li>
-      <li class="edit-mode">
+      <li class="edit-mode task-el">
         <input class="input-checkbox" type="checkbox">
         <label class="task label">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="task input-text"><button class="button edit">Save</button><button class="button delete"><img src="./remove.svg"></button>
+        <input type="text" value="Go Shopping" class="task input-text"><button class="button edit">Save</button><button class="button delete"><img class="delete-img" src="./remove.svg"></button>
       </li>
     </ul>
     <h3 class="header">Completed</h3>
     <ul id="completed-tasks">
-      <li>
+      <li class="task-el">
         <input class="input-checkbox" type="checkbox" checked>
         <label class="task label">See the Doctor</label>
-        <input type="text" class="task input-text"><button class="button edit">Edit</button><button class="button delete"><img src="./remove.svg"></button>
+        <input type="text" class="task input-text"><button class="button edit">Edit</button><button class="button delete"><img class="delete-img" src="./remove.svg"></button>
       </li>
     </ul>
   </div>
