@@ -109,7 +109,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > .input-checkbox {
   margin: 0 10px;
 }
 li > .label {
